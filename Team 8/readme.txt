@@ -1,0 +1,1 @@
+Every file with "params" in it's filename should be in the root directory of the workspace to achieve the same result.

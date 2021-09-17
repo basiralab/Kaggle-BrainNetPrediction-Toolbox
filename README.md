@@ -16,7 +16,7 @@ methods. Participants compete within teams where they developed their own pipeli
 timestep. **The pipelines of the best performing 20 teams are included in this repo which involve a large variety of built-in machine learning methods for data pre-processing, dimensionality
 reduction and regression.**
 
-![BrainNet](https://github.com/basiralab/Kaggle-BrainNetPrediction-Toolbox/blob/master/Fig1.png)
+![BrainNet](Fig1.png)
 
 The challenge results are evaluated in 3 different experimental setups and the teams are ranked based on their MAE and PCC scores:
 * **Public scores:** Scores on the first half of the test set. Teams were able to examine their public scores and rank during the competition.
@@ -26,11 +26,11 @@ The challenge results are evaluated in 3 different experimental setups and the t
 Teams are first ranked based on their MAE and PCC scores separately for each setup having 6 different rankings. Then the overall ranks are determined based on the average of these
 ranks. So that the results better reveal the generalizability of the proposed pipelines on both training and test sets. Team ranks and employed methods are given at table below.
 
-![BrainNet](https://github.com/basiralab/Kaggle-BrainNetPrediction-Toolbox/blob/master/Fig2.png)
+![BrainNet](Fig2.png)
 
 The scores and rankings of top-3 teams are given below.
 
-![BrainNet](https://github.com/basiralab/Kaggle-BrainNetPrediction-Toolbox/blob/master/Fig3.png)
+![BrainNet](Fig3.png)
 
 # Installation
 

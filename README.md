@@ -59,5 +59,5 @@ run codes on another dataset you may need to make necessary modifications on the
 TBA
 
 ```
-Paper link on arXiv:
-TBA
+# Paper link on arXiv
+https://arxiv.org/abs/2109.07739

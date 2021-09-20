@@ -49,9 +49,22 @@ Required Python Modules:
 
 # Dataset format
 
-The brain connectivity map dataset includes 230 samples in total as 150 samples are given as training set and 80 samples were in the test set. Brain connectivity maps
-of individuals are represented by 595 morphological connectivity features. Source codes load the data from CSV files via load_data function, if you intend to
-run codes on another dataset you may need to make necessary modifications on the related function. 
+The brain connectivity map dataset includes 230 subjects in total from [OASIS-2 Dataset](https://www.oasis-brains.org/) referenced below.
+
+```
+Marcus, D.S., Fotenos, A.F., Csernansky, J.G., Morris, J.C., Buckner, R.L., 2010.
+Open access series of imaging studies: longitudinal mri data in nondemented and demented older adults.
+Journal of cognitive neuroscience 22, 2677–2684.
+```
+
+This set consists of a longitudinal collection of 230 subjects aged 60 to 96. For each subject, T1-weighted MRI scans for 3 timepoints with interval of at least one year is included in the dataset. For the dataset used in the competition, cortical morphological networks are derived from structural T1-weighted MRIs of 2 consecutive timepoints (t0 and t1) for each subject. These connectivity maps are represented by 595 morphological connectivity features.
+
+The train-test split for total of 230 subjects is as follows:
+- **Training set:** 150 subjects
+- **Public test set:** 40 subjects
+- **Private test set:** 40 subjects
+
+Teams trained their pipelines on given t0 and t1 maps of training set. They given only the t0 maps of public test set and submitted their predictions for t1 maps to the system for evaluation and examined their results. The private test set completely kept hidden during the competition and after the competition ends, the submitted pipelines are tested also on the private test set.
 
 # Please cite the following paper when using BrainNet-Prediction-ToolBox:
 

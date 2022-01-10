@@ -1,19 +1,16 @@
 # Machine Learning Methods for Brain Connectivity Evolution Prediction from a Single Observation
 ==============================================================
 
-Thw BrainNet Prediction Toolbox is a compilation of the proposed ML pipelines for brain connectivity map estimation.
-Pipelines consisting of data pre-processing, dimensionality reduction and regression models are created with help of key ML libraries such as scikit-learn <https://scikit-learn.org/stable/index.html>, and xgboost <https://xgboost.ai/>.
+The BrainNet Prediction Toolbox is a compilation of the proposed ML pipelines for predicting the evolution of brain connectivity maps.
+Pipelines consisting of data pre-processing, dimensionality reduction and regression models are created using ML libraries such as scikit-learn <https://scikit-learn.org/stable/index.html>, and xgboost <https://xgboost.ai/>.
 
 # Introduction
 
-The estimation of brain connectivity map in a future timestep makes it possible to diagnose the connectivity related diseases in earlier phases or detect the potential anomalies
-through brain evolution. Given that the predictive ability of artificial learning algorithms have been improving gradually in recent years, the prediction of brain connectivity
-task also became of concern for machine learning researchers. However the task is relatively less explored and there are a few works focused on machine learning solutions for
-brain evolution prediction.
+Predicting the evolution of the brain network, also called connectome, by foreseeing changes in the connectivity weights linking pairs of anatomical regions makes it possible to spot connectivity-related neuro- logical disorders in earlier stages and detect the development of potential connectomic anomalies. Remarkably, such a challenging prediction problem remains least explored in the predictive connectomics literature. It is a known fact that machine learning (ML) methods have proven their predictive abilities in a wide variety of computer vision problems. However, ML techniques specifically tailored for the prediction of brain connectivity evolution trajectory from a single timepoint are almost absent.
 
-In order to cover this gap in the literature, an in-class **Kaggle challenge** is organized where we encouraged the participants to experiment with various machine learning
-methods. Participants compete within teams where they developed their own pipelines to estimate the connectivity map in a further timestep given the connectivity map at an initial
-timestep. **The pipelines of the best performing 20 teams are included in this repo which involve a large variety of built-in machine learning methods for data pre-processing, dimensionality
+To fill this gap in the literature, an in-class **Kaggle challenge** is organized where we encouraged the participating teams to experiment with various machine learning
+methods. The 20 competing teams developed their own pipelines to predict the connectivity map at a follow-up timepoint given the connectivity map at an initial
+timepoint. **The pipelines of the best performing 20 teams are included in this repo which involve a large variety of built-in machine learning methods for data pre-processing, dimensionality
 reduction and regression.**
 
 ![BrainNet](Fig1.png)

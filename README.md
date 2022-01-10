@@ -4,7 +4,7 @@
 The BrainNet Prediction Toolbox is a compilation of the proposed ML pipelines for predicting the evolution of brain connectivity maps.
 Pipelines consisting of data pre-processing, dimensionality reduction and regression models are created using ML libraries such as scikit-learn <https://scikit-learn.org/stable/index.html>, and xgboost <https://xgboost.ai/>.
 
-# Introduction
+# Predicting Brain Roadmaps
 
 Predicting the evolution of the brain network, also called connectome, by foreseeing changes in the connectivity weights linking pairs of anatomical regions makes it possible to spot connectivity-related neuroogical disorders in earlier stages and detect the development of potential connectomic anomalies. Remarkably, such a challenging prediction problem remains least explored in the predictive connectomics literature. It is a known fact that machine learning (ML) methods have proven their predictive abilities in a wide variety of computer vision problems. However, ML techniques specifically tailored for the prediction of brain connectivity evolution trajectory from a single timepoint are almost absent.
 

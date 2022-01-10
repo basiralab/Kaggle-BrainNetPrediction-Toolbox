@@ -6,12 +6,11 @@ Pipelines consisting of data pre-processing, dimensionality reduction and regres
 
 # Introduction
 
-Predicting the evolution of the brain network, also called connectome, by foreseeing changes in the connectivity weights linking pairs of anatomical regions makes it possible to spot connectivity-related neuro- logical disorders in earlier stages and detect the development of potential connectomic anomalies. Remarkably, such a challenging prediction problem remains least explored in the predictive connectomics literature. It is a known fact that machine learning (ML) methods have proven their predictive abilities in a wide variety of computer vision problems. However, ML techniques specifically tailored for the prediction of brain connectivity evolution trajectory from a single timepoint are almost absent.
+Predicting the evolution of the brain network, also called connectome, by foreseeing changes in the connectivity weights linking pairs of anatomical regions makes it possible to spot connectivity-related neuroogical disorders in earlier stages and detect the development of potential connectomic anomalies. Remarkably, such a challenging prediction problem remains least explored in the predictive connectomics literature. It is a known fact that machine learning (ML) methods have proven their predictive abilities in a wide variety of computer vision problems. However, ML techniques specifically tailored for the prediction of brain connectivity evolution trajectory from a single timepoint are almost absent.
 
 To fill this gap in the literature, an in-class **Kaggle challenge** is organized where we encouraged the participating teams to experiment with various machine learning
 methods. The 20 competing teams developed their own pipelines to predict the connectivity map at a follow-up timepoint given the connectivity map at an initial
-timepoint. **The pipelines of the best performing 20 teams are included in this repo which involve a large variety of built-in machine learning methods for data pre-processing, dimensionality
-reduction and regression.**
+timepoint. **The pipelines of the best performing 20 teams are included in this repo which involve a large variety of built-in machine learning methods for data pre-processing, dimensionality reduction and regression.**
 
 ![BrainNet](Fig1.png)
 

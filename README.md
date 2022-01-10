@@ -1,4 +1,4 @@
-# Machine Learning Methods for Brain Connectivity Estimation from Single Observation
+# Machine Learning Methods for Brain Connectivity Evolution Prediction from a Single Observation
 ==============================================================
 
 Thw BrainNet Prediction Toolbox is a compilation of the proposed ML pipelines for brain connectivity map estimation.

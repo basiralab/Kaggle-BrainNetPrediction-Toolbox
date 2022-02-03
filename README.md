@@ -65,7 +65,14 @@ Teams trained their pipelines on given t0 and t1 maps of training set. They give
 # Please cite the following paper when using BrainNet-Prediction-ToolBox:
 
 ```
-TBA
+@article{akti2022comparative,
+  title={A comparative study of machine learning methods for predicting the evolution of brain connectivity from a baseline timepoint},
+  author={Akt{\'\i}, {\c{S}}eymanur and Kamar, Do{\u{g}}ay and {\"O}zl{\"u}, {\"O}zg{\"u}r An{\'\i}l and Soydemir, Ihsan and Akcan, Muhammet and Kul, Abdullah and Rekik, Islem},
+  journal={Journal of neuroscience methods},
+  pages={109475},
+  year={2022},
+  publisher={Elsevier}
+}
 
 ```
 # Paper link on arXiv

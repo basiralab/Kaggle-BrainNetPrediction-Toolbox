@@ -78,11 +78,6 @@ Teams trained their pipelines on given t0 and t1 maps of training set. They give
 
 # Please cite the following papers for the morphological connectomic dataset use:
 
-```
-Marcus, D.S., Fotenos, A.F., Csernansky, J.G., Morris, J.C., Buckner, R.L., 2010.
-Open access series of imaging studies: longitudinal mri data in nondemented and demented older adults.
-Journal of cognitive neuroscience 22, 2677–2684.
-```
 
 ```
 Marcus, D.S., Fotenos, A.F., Csernansky, J.G., Morris, J.C., Buckner, R.L., 2010.
@@ -90,6 +85,7 @@ Open access series of imaging studies: longitudinal mri data in nondemented and 
 Journal of cognitive neuroscience 22, 2677–2684.
 ```
 
+```
 @article{mahjoub2018,
   title={Brain multiplexes reveal morphological connectional biomarkers fingerprinting late brain dementia states},
   author={Mahjoub, Ines and Mahjoub, Mohamed Ali and Rekik, Islem},
@@ -100,7 +96,8 @@ Journal of cognitive neuroscience 22, 2677–2684.
   year={2018},
   publisher={Nature Publishing Group}
 }
-
+```
+```
 @article{lisowska2019,
   title={Joint pairing and structured mapping of convolutional brain morphological multiplexes for early dementia diagnosis},
   author={Lisowska, Anna and Rekik, Islem},
@@ -111,6 +108,7 @@ Journal of cognitive neuroscience 22, 2677–2684.
   year={2019},
   publisher={Mary Ann Liebert, Inc., publishers 140 Huguenot Street, 3rd Floor New~…}
 }
+```
 
 # Paper link on arXiv
 https://arxiv.org/abs/2109.07739
